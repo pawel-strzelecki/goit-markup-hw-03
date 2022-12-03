@@ -10,6 +10,16 @@ body {
     color: #212121;
 }
 
+ul,
+h1,
+h2,
+h3,
+h4,
+p {
+  padding: 0;
+  margin: 0;
+}
+
 a {
     text-decoration: none;
     color: inherit;
@@ -20,8 +30,7 @@ a:hover, a:focus, a:active {
 }
 
 .container {
-    max-width: 1200px;
-    margin: 0 auto;
+    width: 1200px;
 }
 
 menu {
@@ -33,7 +42,7 @@ menu {
     font-size: 26px;
     line-height: 1.17;
     color: #2196F3;
-    padding: 24px 214px 25px 93px;
+    padding: 24px 0px 25px 214px;
     display: inline-flex;
 }
     
@@ -51,8 +60,9 @@ nav {
     line-height: 1.14;
     letter-spacing: 0.02em;
     display: inline-flex;
-    gap: 25%;
-    padding: 32px
+    margin-left: 93px;
+    padding: 32px;
+    gap: ;
 }
 
 .contacts {
@@ -61,7 +71,8 @@ nav {
     line-height: 1.14;
     letter-spacing: 0.02em;
     color: var(--text-secondary-color);
-    padding: 32px auto 32px 371px;
+    margin-left: 371px;
+    padding: 32px;
     display: inline-flex;
     justify-content: end;
 }
@@ -79,6 +90,7 @@ nav {
     letter-spacing: 0.06em;
     text-transform: uppercase;
     color: #FFFFFF;
+    padding: 200px;
 }
 
 .main-button {
@@ -98,6 +110,10 @@ nav {
     list-style-type: none;
     font-size: 14px;
     line-height: 1.17;
+    margin: 94px;
+    padding: 0;
+    display: inline-flex;
+    gap: 30px;
 }
 
 .article-text {
@@ -119,6 +135,12 @@ nav {
 
 .team-job {
     color: var(--text-secondary-color);
+}
+
+.team-img-list {
+    list-style: none;
+    display: inline-flex;
+    gap: 30px;
 }
 
 .bottom {
