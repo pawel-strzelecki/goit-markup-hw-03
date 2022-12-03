@@ -19,8 +19,12 @@ a:hover, a:focus, a:active {
     color: var(--highlight-color)
 }
 
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
 menu {
-    width: 1600px;
     height: 80px;
 }
 
@@ -29,6 +33,8 @@ menu {
     font-size: 26px;
     line-height: 1.17;
     color: #2196F3;
+    padding: 24px 214px 25px 93px;
+    display: inline-flex;
 }
     
 .logo-menu {
@@ -44,6 +50,9 @@ nav {
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
+    display: inline-flex;
+    gap: 25%;
+    padding: 32px
 }
 
 .contacts {
@@ -52,10 +61,12 @@ nav {
     line-height: 1.14;
     letter-spacing: 0.02em;
     color: var(--text-secondary-color);
+    padding: 32px auto 32px 371px;
+    display: inline-flex;
+    justify-content: end;
 }
 
 .banner {
-    width: 1600px;
     height: 600px;
     background: var(--secondary-background-color);
 }
