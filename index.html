@@ -21,7 +21,7 @@
   <body>
     <header>
         <section class="menu">
-          <div class="container menu-flex">
+          <div class="container menu-flex header-padding">
             <div class="menu-flex">
               <div class="logo">
                <a href="#">Web<span class="logo-menu">Studio</span></a>
@@ -37,16 +37,18 @@
             <a href="tel:+48111111111"><span>+48 111 111 111</span></a>
           </div>
         </div>
-        </section>
       </div>
+        </section>
     </header>
     <main>
-      <div class="container">
-        <section class="banner section">
+      <section class="banner">
+          <div class="container">
           <h1 class="banner-text">EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
           <button type="button" class="main-button">Zamów usługę</button>
+        </div>
         </section>
-        <section class="section">
+        <section class="section-top">
+          <div class="container">
           <ul class="article-list">
             <li>
               <h3>LOREM IPSUM</h3>
@@ -71,10 +73,12 @@
               </p>
             </li>
           </ul>
+        </div>
         </section>
-        <section class="what-we-do section">
+        <section class="section-top section-bottom">
           <h2 class="section-header">Czym się zajmujemy</h2>
-          <ul class="img-list">
+          <div class="what-we-do container">
+            <ul class="img-list">
             <li>
             <img
               src="images/programming.jpg"
@@ -100,12 +104,12 @@
             />
           </li>
         </ul>
+      </div>
+      </div>
         </section>
-        <section class="our-team section">
+        <section class="section-top team-section">
           <h2 class="section-header">Nasz zespół</h2>
-          <!-- <ul class="team-img-list">
-            <li> -->
-          <div class="team-images">
+          <div class="team-images container">
           <figure class="team-card">
             <img
               src="images/product-designer.jpg"
@@ -113,67 +117,66 @@
               width="270"
               height="260"
             />
-            <figcaption>
+            <figcaption class="caption">
               <span class="team-name">John Doe</span> <br />
               <span class="team-job">Product Designer</span>
             </figcaption>
           </figure>
-        <!-- </li>
-        <li> -->
-          <figure>
+          <figure class="team-card">
             <img
               src="images/frontend-developer.jpg"
               alt="photo of a woman is frontend developer"
               width="270"
               height="260"
             />
-            <figcaption>
+            <figcaption class="caption">
               <span class="team-name">John Doe</span> <br />
               <span class="team-job">Frontend Developer</span>
             </figcaption>
           </figure>
-        <!-- </li>
-        <li> -->
-          <figure>
+          <figure class="team-card">
             <img
               src="images/marketing.jpg"
               alt="photo of a man who is marketing specialist"
               width="270"
               height="260"
             />
-            <figcaption>
+            <figcaption class="caption">
               <span class="team-name">John Doe</span> <br />
               <span class="team-job">Marketing</span>
             </figcaption>
           </figure>
-        <!-- </li>
-        <li> -->
-          <figure>
+          <figure class="team-card">
             <img
               src="images/ui-designer.jpg"
               alt="photo of a man who is ui designer"
               width="270"
               height="260"
             />
-            <figcaption>
+            <figcaption class="caption">
               <span class="team-name">John Doe</span> <br />
               <span class="team-job">Marketing</span>
             </figcaption>
           </figure>
         </div>
-        <!-- </li>
-        </ul> -->
         </section>
     </main>
-    <footer class="bottom container">
-        <div class="logo">
+    <footer>
+      <section class="bottom">
+        <div class="container">
+        <div class="logo footer-padding">
           <a href="#">Web<span class="logo-footer">Studio</span></a>
         </div>
         <address class="studio-address">m. Warszawa, Aleje Jerozolimskie 21</address>
-        <div class="contacts">
+          <div class="contacts bottom-mail">
           <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+          </div>
+          <div class="contacts bottom-tel">
           <a href="tel:+48111111111">+48 111 111 111</a>
+          </div>
         </div>
+      </div>
+      </section>
     </footer>
   </body>
 </html>
