@@ -225,11 +225,15 @@ nav {
   display: flex;
   justify-content: center;
   gap: 30px;
+  padding-bottom: 50px;
 }
 
 .portfolio-main {
   color: var(--text-secondary-color);
   line-height: 2;
+  display: flex;
+  flex-wrap: wrap;
+  flex-basis: calc((100% - 30px) / 2);
 }
 
 .portfolio-name {
@@ -259,4 +263,12 @@ nav {
 .portfolio-button:focus {
   background-color: var(--highlight-color);
   color: #ffffff;
+}
+
+.portfolio-card {
+  /* border: 1px solid #500909; */
+}
+
+.portfolio-caption {
+  border: 1px solid #b81c1c;
 }
