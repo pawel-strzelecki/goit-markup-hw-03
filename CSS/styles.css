@@ -100,7 +100,6 @@ nav {
 }
 
 .banner {
-  height: 600px;
   background: var(--secondary-background-color);
 }
 
@@ -112,7 +111,14 @@ nav {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: #ffffff;
-  padding: 200px;
+  padding-top: 200px;
+  padding-bottom: 30px;
+}
+
+.banner-button {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 200px;
 }
 
 .main-button {
@@ -216,6 +222,9 @@ nav {
 
 .portfolio-filters {
   list-style-type: none;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
 }
 
 .portfolio-main {
@@ -238,6 +247,8 @@ nav {
   line-height: 1.62;
   letter-spacing: 0.03em;
   text-align: center;
+  border-color: F5F4FA;
+  box-shadow: 0px 4px 4px;
 }
 
 .portfolio-button:hover {
