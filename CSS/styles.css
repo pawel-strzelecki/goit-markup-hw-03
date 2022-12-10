@@ -12,7 +12,8 @@ body {
 }
 
 * {
-  margin: 0; padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 a {
@@ -41,8 +42,8 @@ a:active {
   padding-bottom: 94px;
 }
 
-menu {
-  border-bottom: 1px solid #ececec;
+.menu {
+  border-bottom: 1px solid #000;
 }
 
 .menu-flex {
@@ -109,6 +110,7 @@ nav {
   color: #ffffff;
   padding-top: 200px;
   padding-bottom: 30px;
+  margin: 0;
 }
 
 .banner-button {
@@ -128,6 +130,8 @@ nav {
   color: #ffffff;
   width: 200px;
   height: 50px;
+  border-style: hidden;
+  border-radius: 4px;
 }
 
 .article-list {
@@ -196,7 +200,6 @@ img {
 .team-job {
   color: var(--text-secondary-color);
   padding-bottom: 30px;
-  
 }
 
 .bottom {
@@ -229,7 +232,7 @@ img {
   list-style-type: none;
   display: flex;
   justify-content: center;
-  gap: 30px;
+  gap: 8px;
   padding-bottom: 50px;
 }
 
@@ -238,13 +241,22 @@ img {
   line-height: 2;
   display: flex;
   flex-wrap: wrap;
-  flex-basis: calc((100% - 30px) / 2);
+  justify-content: space-between;
+}
+
+.portfolio-card {
+  padding-bottom: 30px;
 }
 
 .portfolio-name {
   color: #212121;
   font-weight: 700;
   font-size: 18px;
+  padding: 20px 24px 0 24px;
+}
+
+.portfolio-caption {
+  padding: 0px 24px 20px 24px;
 }
 
 .portfolio-button {
@@ -256,8 +268,9 @@ img {
   line-height: 1.62;
   letter-spacing: 0.03em;
   text-align: center;
-  border-color: F5F4FA;
-  box-shadow: 0px 4px 4px;
+  border-style: hidden;
+  border-radius: 4px;
+  box-shadow: 0px 3px 3px 1px rgba(0, 0, 0, 0.3);
 }
 
 .portfolio-button:hover {
@@ -270,10 +283,13 @@ img {
   color: #ffffff;
 }
 
-.portfolio-card {
-  /* border: 1px solid #500909; */
+.portfolio-button-text {
+  display: block;
+  padding: 6px 22px;
 }
 
-.portfolio-caption {
-  border: 1px solid #b81c1c;
+.portfolio-border {
+  border-left: solid 1px #eeeeee;
+  border-right: solid 1px #eeeeee;
+  border-bottom: solid 1px #eeeeee;
 }
